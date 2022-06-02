@@ -68,7 +68,7 @@ def pregunta_01():
 
     # Remueva la columna `veil-type` del DataFrame `df`.
     # Esta columna tiene un valor constante y no sirve para la detección de hongos.
-    df.pop("veil-type")
+    df.pop("veil_type")
 
     # Asigne la columna `type` a la variable `y`.
     y = df["type"]
